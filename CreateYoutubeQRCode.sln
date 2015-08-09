@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateYoutubeQRCode", "CreateYoutubeQRCode\CreateYoutubeQRCode.csproj", "{62568386-7D71-410B-B440-5B1AEDCCC1B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateYoutubeQRCodeLib", "CreateYoutubeQRCodeLib\CreateYoutubeQRCodeLib.csproj", "{12122259-74F4-4382-90F0-9600736676AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateYoutubeQRCodeConsole", "CreateYoutubeQRCodeConsole\CreateYoutubeQRCodeConsole.csproj", "{BAA2DF17-51BE-416E-BECC-B85233313111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateYoutubeQRCodeConsoleWithOAuth", "CreateYoutubeQRCodeConsoleWithOAuth\CreateYoutubeQRCodeConsoleWithOAuth.csproj", "{1EED2625-3211-4FD3-A222-F0B0CAF1E826}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,16 @@ Global
 		{BAA2DF17-51BE-416E-BECC-B85233313111}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{BAA2DF17-51BE-416E-BECC-B85233313111}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{BAA2DF17-51BE-416E-BECC-B85233313111}.Release|x86.ActiveCfg = Release|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1EED2625-3211-4FD3-A222-F0B0CAF1E826}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
