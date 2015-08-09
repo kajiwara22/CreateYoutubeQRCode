@@ -11,7 +11,7 @@ namespace CreateYoutubeQRCodeConsole
     {
         
        
-        static void Main(string[] args)
+        static  void Main(string[] args)
         {
             //(1)コマンドラインパーサーの初期化
             ParserSettings setting = new ParserSettings();
@@ -27,13 +27,16 @@ namespace CreateYoutubeQRCodeConsole
             }
             var filePath = System.IO.Path.GetFullPath(option.OutputDirPath);
 
-            // 取得した絶対パスを表示する
             
             var createYoutubeQRCode = new CreateYoutubeQRCodeLib.CreateYoutubeQRCode();
             createYoutubeQRCode.TargetContentType = CreateYoutubeQRCodeLib.contentType.User;
             createYoutubeQRCode.APIKey = option.APIKey;
             createYoutubeQRCode.TargetFolderPath = filePath;
             createYoutubeQRCode.UserName = option.UserName;
+
+           
+            
+
             var t = 　createYoutubeQRCode.CreateQR();
             t.Wait();
             
